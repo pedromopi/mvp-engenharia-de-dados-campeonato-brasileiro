@@ -1,0 +1,81 @@
+# Arquivos de referência locais deste projeto
+/manual.pdf
+/manual.md
+/AGENTS.md
+
+# macOS / Windows
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databricks e Spark
+.databricks/
+.databrickscfg
+.bundle/
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Variáveis, credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Logs, caches e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+tmp/
+temp/
+
+# Dados e saídas locais potencialmente grandes
+/data/
+/output/
+/outputs/
+/artifacts/
+*.parquet
+*.orc
+*.avro
+*.delta
+
